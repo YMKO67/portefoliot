@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asmae Himmi — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="logo">asmae<span class="path">@</span>epita<span class="path">:~$</span></div>
+    <div class="navlinks">
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <canvas id="matrix"></canvas>
+  <div class="wrap hero-inner">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+        <span class="terminal-title">asmae@epita — zsh</span>
+      </div>
+      <div class="terminal-body" id="termBody">
+        <div><span class="prompt">$</span> <span class="cmd">whoami</span></div>
+        <div class="out-name">Asmae Himmi</div>
+        <div class="out-line type-line" data-d="0">&gt; étudiante en informatique — <b>EPITA</b> → <b>Epitech (Bachelor)</b></div>
+        <div class="out-line type-line" data-d="1">&gt; intéressée par la robotique santé, les logiciels fiables &amp; l'UX</div>
+        <div class="out-line type-line" data-d="2">&gt; en ce moment : jeu vidéo multijoueur, OCR, tracking santé, dev web</div>
+        <div style="margin-top:14px;"><span class="prompt">$</span> <span class="cmd">cursor</span><span class="cursor"></span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="eyebrow">01 · about</div>
+      <h2>Profil &amp; <span>formation</span></h2>
+      <div class="about-grid">
+        <div>
+          <p>Je suis <strong>Asmae</strong>, étudiante en informatique. Mon parcours s'est construit en prépa intégrée à l'<strong>EPITA</strong> et se poursuit en <strong>Bachelor à Epitech</strong>.</p>
+          <p>Je m'intéresse particulièrement à la <strong>robotique appliquée à la santé</strong> — imaginer des solutions utiles aux soignants comme aux patients — ainsi qu'à la conception de <strong>logiciels et d'applications</strong> fiables, accessibles et pensés pour l'expérience utilisateur.</p>
+          <p>Curieuse et méthodique, j'aime autant écrire du code que réfléchir à ce qui rend une interface agréable — ou volontairement horrible, quand le sujet s'y prête.</p>
+        </div>
+        <div class="log">
+          <div class="log-item">
+            <span class="log-time">en cours</span>
+            <div class="log-title">Epitech — Bachelor informatique</div>
+            <div class="log-sub">Suite de parcours après la prépa EPITA</div>
+          </div>
+          <div class="log-item">
+            <span class="log-time">2023 – 2025</span>
+            <div class="log-title">EPITA Strasbourg — Prépa intégrée</div>
+            <div class="log-sub">Cycle ingénieur, tronc commun informatique</div>
+          </div>
+          <div class="log-item">
+            <span class="log-time">2020 – 2023</span>
+            <div class="log-title">Lycée International des Pontonniers — Bac général</div>
+            <div class="log-sub">Spécialités Maths, Physique-Chimie, SVT</div>
+          </div>
+          <div class="log-item">
+            <span class="log-time">2022</span>
+            <div class="log-title">Cambridge — Anglais niveau C1</div>
+            <div class="log-sub">Certification internationale</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="eyebrow">02 · skills</div>
+      <h2>Compétences <span>techniques</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>langages &amp; outils</h3>
+          <div class="chip-row">
+            <span class="chip"><b>Python</b></span>
+            <span class="chip"><b>C</b></span>
+            <span class="chip"><b>C++</b></span>
+            <span class="chip"><b>HTML/CSS/JS</b></span>
+            <span class="chip"><b>Git</b></span>
+            <span class="chip"><b>Unity</b></span>
+            <span class="chip"><b>FL Studio</b></span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>langues parlées</h3>
+          <div class="bar-row"><span>Français</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
+          <div class="bar-row" style="margin-top:14px;"><span>Anglais (C1)</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:90%"></div></div>
+          <div class="bar-row" style="margin-top:14px;"><span>Arabe</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:95%"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>soft skills</h3>
+          <div class="chip-row">
+            <span class="chip">Communication</span>
+            <span class="chip">Leadership</span>
+            <span class="chip">Travail d'équipe</span>
+            <span class="chip">Rigueur</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="eyebrow">03 · projects</div>
+      <h2>Projets <span>principaux</span></h2>
+      <div class="proj-grid">
+
+        <div class="card">
+          <div class="card-bar">🎮 game.unity — Another Recursion</div>
+          <img class="card-img" src="assets/jeu-video.png" alt="Capture d'écran du jeu Another Recursion, scène pixel art nocturne">
+          <div class="card-body">
+            <h3>Jeu vidéo multijoueur</h3>
+            <p>Co-développement d'un jeu multijoueur : conception des mécaniques, création d'assets, tests de stabilité. Ajout d'une IA pour une aventure solo plus vivante, avec des comportements progressifs.</p>
+            <div class="tag-row">
+              <span class="tag">Unity</span><span class="tag">FL Studio</span><span class="tag">C#</span><span class="tag">Groupe</span>
+            </div>
+            <a href="#" class="card-link">→ voir le code</a>
+            <div class="role-note">Mon rôle : bande-son, sprites &amp; intégration gameplay</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-bar">🌐 site-papa.html</div>
+          <div class="card-body">
+            <h3>Site web pour mon père</h3>
+            <p>Conception et développement d'un site vitrine sur mesure, du cahier des charges à la mise en ligne — un vrai client, de vraies contraintes.</p>
+            <div class="tag-row">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Solo</span>
+            </div>
+            <a href="#" class="card-link">→ voir le site</a>
+            <div class="role-note">Mon rôle : design, développement &amp; livraison complète</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-bar">🔍 ocr_engine.py</div>
+          <div class="card-body">
+            <h3>Reconnaissance de caractères (OCR)</h3>
+            <p>Projet de groupe autour de la reconnaissance optique de caractères : traitement d'image, entraînement d'un modèle et évaluation de la précision.</p>
+            <div class="tag-row">
+              <span class="tag">Python</span><span class="tag">OCR</span><span class="tag">Groupe</span>
+            </div>
+            <div class="clone-box"><span class="p">$ git clone</span> asmae.himmi@git.forge.epita.fr:p/epita-prepa-computer-science/proj-s3-2029/epita-prepa-computer-science-proj-s3-2029-stg_sOCRate.git</div>
+            <div class="role-note">Projet réalisé en équipe — dépôt EPITA Forge</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-bar">🩸 cycle-tracker.app</div>
+          <div class="card-body">
+            <h3>App de suivi des menstruations</h3>
+            <p>Application de tracking du cycle menstruel, pensée pour la clarté et la confidentialité des données — un projet à la croisée de la santé et de l'UX.</p>
+            <div class="tag-row">
+              <span class="tag">Mobile</span><span class="tag">UX</span><span class="tag">Santé</span>
+            </div>
+            <a href="#" class="card-link">→ voir le projet</a>
+            <div class="role-note">Projet personnel</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="side-grid">
+        <div class="side-card">
+          <div class="side-body">
+            <h4>Nuit de l'Info</h4>
+            <p>Hackathon national — conception et développement d'une application web en une nuit, en équipe.</p>
+          </div>
+        </div>
+        <div class="side-card">
+          <div class="side-body">
+            <h4>Bad UI Challenge</h4>
+            <p>Création volontaire d'une interface frustrante pour illustrer les erreurs d'UX à éviter, avec un peu d'humour.</p>
+          </div>
+        </div>
+        <div class="side-card">
+          <img class="side-img" src="assets/site-perso.png" alt="Maquette d'un site personnel avec illustration manga et section about me">
+          <div class="side-body">
+            <h4>Sites persos</h4>
+            <p>Expérimentations autour du design d'interface et de l'interactivité, en HTML / CSS / JS.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="eyebrow">04 · contact</div>
+      <h2>On <span>échange</span> ?</h2>
+      <div class="contact-box">
+        <p>$ mail --to asmae · toujours ouverte à discuter projets, stages ou collabs</p>
+        <div class="contact-links">
+          <a class="btn" href="mailto:asmae.himmi@example.com">✉ email</a>
+          <a class="btn" href="#">github</a>
+          <a class="btn" href="#">linkedin</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>© 2026 Asmae Himmi — construit avec HTML, CSS &amp; JS</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
